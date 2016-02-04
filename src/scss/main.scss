@@ -768,6 +768,14 @@ body{
 		text-align: $message-alignment;
 		line-height: $message-line-height;
 		padding: 30px;
+
+    & .first-name{
+      text-transform: capitalize;
+    }
+
+    & .company-name{
+      text-transform: capitalize;
+    }
 	}
 
 	.ag-labs-callout{

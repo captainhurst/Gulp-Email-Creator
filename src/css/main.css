@@ -947,6 +947,12 @@ body .welcome-message {
   line-height: 28px;
   padding: 30px;
 }
+body .welcome-message .first-name {
+  text-transform: capitalize;
+}
+body .welcome-message .company-name {
+  text-transform: capitalize;
+}
 body .ag-labs-callout p.leaf-logo img {
   display: inline-block;
   width: 25px;
